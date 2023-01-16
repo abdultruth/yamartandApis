@@ -1,0 +1,8 @@
+{% autoescape off %}
+
+please click oon below link to confirm your registration.
+http://{{domain}}{% url 'accounts:activate' uidb64=uid token=token %}
+
+If you think its's not you, please ignore this email.
+
+{% endautoescape %}

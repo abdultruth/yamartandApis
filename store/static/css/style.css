@@ -1,0 +1,24 @@
+.p_imag{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shoppingCart button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(144, 52, 229);
+    color: rgb(242, 247, 242);
+    width: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.shoppingCart .pay-section{
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
